@@ -1,0 +1,10 @@
+import random
+test_seed=int(input("Create a seed number: "))
+random.seed(test_seed)
+namesAsCSV=input("Give me everybody's names, seperated by comma ")
+names=namesAsCSV.split(", ")
+print(names)
+x=len(names)
+c=random.randint(0,x-1)
+print(f"The person who is going to buy the meal is {names[c]}")
+print(f"The person who is going to buy the meal is {random.choice(names)}")

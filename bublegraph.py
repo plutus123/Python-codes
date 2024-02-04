@@ -1,0 +1,17 @@
+import matplotlib.pyplot as plt
+import numpy as np
+x=np.array([1678,2099,3754,4800,5420])
+y=np.array([1994,1996,1998,2000,2002])
+p=np.array([100,200,300,400,500])
+c=np.arange(1,6)
+plt.scatter(x,y,s=p,c=c,alpha=0.5,edgecolors='black')
+plt.title("Bubble Graph")
+plt.ylabel('y')
+plt.xlabel('x')
+plt.text(x[0]+0.1,y[0]+0.1,"p[0]")
+plt.text(x[1]+0.1,y[1]+0.1,"p[1]")
+plt.text(x[2]+0.1,y[2]+0.1,"p[2]")
+plt.text(x[3]+0.1,y[3]+0.1,"p[3]")
+plt.text(x[4]+0.1,y[4]+0.1,"p[4]")
+plt.grid()
+plt.show()
