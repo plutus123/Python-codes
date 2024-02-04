@@ -1,8 +1,4 @@
-Turtle().colormode(255)
-# def random_color():
-#     r=random.randint(0,255)
-#     g=random.randint(0,255)
-#     b=random.randint(0,255)
-#     my_tuple=(r,g,b)
-#     for color in my_tuple:
-#         colo
+list[0]=list[0]-gist[0]
+    # list[1]=list[1]-gist[1]
+    # list[2]=list[2]-gist[2]
+    # print(list)
