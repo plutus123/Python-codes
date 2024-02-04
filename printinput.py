@@ -1,0 +1,1 @@
+print("Vishwas is greatest of all time " + input('Why?')+" Simply because he excels in everything")
